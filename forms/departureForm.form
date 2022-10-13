@@ -1,0 +1,34 @@
+{
+  "components": [
+    {
+      "label": "Book to pack",
+      "type": "textfield",
+      "id": "Field_07pxboh",
+      "key": "book",
+      "description": "What book do you like to bring on the trip?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Who can help?",
+      "type": "textfield",
+      "id": "Field_0t05h69",
+      "key": "help",
+      "description": "Who do you want to  ask for help?",
+      "validate": {
+        "required": true,
+        "pattern": "Jean-Xavier|Austria"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "departureForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.2.0"
+  },
+  "schemaVersion": 4
+}
